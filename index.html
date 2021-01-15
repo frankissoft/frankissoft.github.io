@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Caminar by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Introduction</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/my.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="logo"><a href="#">Project 3 Info</a></div>
+		<!-- navigation bar -->
+		<!-- ************** -->
+		<div class="navi">
+			<ul class="nav">
+				<li><a class="on" href="#">Introduction</a></li>
+				<li><a href="index1.html">History</a></li>
+				<li><a href="index2.html">Overall</a></li>
+				<li><a href="index3.html">Champions</a></li>
+				<li><a href="index4.html">Solid Teams</a></li>
+				<li><a href="index5.html">Top scorers</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<section id="main">
+		<div class="inner">
+
+
+			<!-- Two -->
+			<!-- <section id="two" class="wrapper style2"> -->
+			<section id="two" class="wrapper style2">
+				<!-- <header> -->
+				<h2 style="padding-top: 1rem; padding-bottom: 1rem; text-align:left; ">This project was implemented by:</h2>
+				<!-- </header> -->
+				<div class="content">
+
+
+					<!-- tableau & D3 and animation -->
+					<!-- ************** -->
+					<a href="mailto:zongtaol@vt.edu">
+						<h3>Zongtao Lin</h3>
+					</a>
+					<a href="mailto:yrunge@vt.edu">
+						<h3>Runge Yan</h3>
+					</a>
+					<a href="mailto:yrunge@vt.edu">
+						<h3>Abdulaziz Alhamadani</h3>
+					</a>
+
+					<h2>What is the project about?</h2>
+					<p>The whole project focuses on the English football (soccer) League.
+						The project limits the data to only the top league in England which
+						is referred to as the English Premier League
+						<a href="https://www.premierleague.com/" style="color: black">(EPL)</a>. As seen in the
+						five other tabs in the navigation bar (History, Overall, Champions, Solid
+						teams, and Top scorers), five pages are dedicated to visualize different
+						stories derived from the collected data. 'History' page utilizes Flourish
+						to show an animated horizontal bar chart. 'Overall and Champions' use tableau
+						to show animated historical data by using filters and pages features.
+						The last two pages use D3 to visualize the strongest teams in the EPL
+						and the top scorers of all time. The project has been an interesting
+						work to work with. I hope you enjoy it!</p>
+
+					<h2>Data: How did we compile it and Where did we get it?</h2>
+					<p>The plan for this project is to focous on the main information about each
+						team in the EPL. The important information were gathered from the year 1888
+						till 2018. For each season, the collected information were like the number of games played
+						per season, total wins (Home wins + Away wins), same for total losses, and draws.
+						More information were gathered to show how each team performed in each season like
+						the number of goalos scored for and against each team and the goal differences.
+						Top scorers of all time data were collected too to show who are the best scorers
+						of all time in the EPL.</p>
+					<p>The data was normalized, compiled, cleaned and divided. Therefore, The data
+						is unique because there is no complete online compiled data like ours in a single csv file. The data
+						can be found in website to be browsed from page to page, but it cannot be found as stand-alone
+						data.</p>
+					<p>Here is how it was collected: two websites have provided most of the data:
+						<a href="https://fbref.com/" style="color: black">fbref.com</a>
+						(to download:<a href="assets/data/fbref.com.zip" style="color: black">click here</a> )
+						and <a href="https://footballcsv.github.io/" style="color: black">Open Public Domain Football Data</a>
+						(to download: <a href="assets/data/england-master.zip" style="color: black">click here</a>). The second website
+						Open Public Domain Football Data has data from 1888 to 1992 . The first website fbref has data from 1992 to 2018.
+						However, they were scattered. The data needed to be compiled, cleaned, and normalized. There were many missing values
+						that have been collected from the main source website of the <a href="https://www.premierleague.com/" style="color: black">EPL</a>
+						. The final compiled data (our work) is in this file that can be downloaded
+						<a href="assets/data/All_Data_main_V3.xlsx" style="color: black">Full Data</a>. Another data was collected about the top scorers
+						of all team. It can be downloaded from <a href="assets/data/topscorers.csv" style="color: black">here</a>.
+						Other datasets that were derived from the main data into small chunks were the following:
+						<a href="assets/data/bar2.csv" style="color: black">download data2, </a>
+						<a href="assets/data/bar3.csv" style="color: black">download data3</a>.
+					</p>
+
+
+
+
+
+
+
+
+
+
+				</div>
+		</div>
+	</section>
+
+	</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="copyright">
+			&copy; Untitled. All rights reserved. Images <a href="https://unsplash.com">Unsplash</a> Design <a href="https://templated.co">TEMPLATED</a>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			var aA = document.getElementsByTagName("a");
+			for (var i = 0; i < aA.length; i++) {
+				aA[i].onmouseover = function() {
+					clearInterval(this.time);
+					var This = this;
+
+					This.time = setInterval(function() {
+						This.style.width = This.offsetWidth + 8 + "px";
+						if (This.offsetWidth >= 160) {
+							clearInterval(This.time);
+						}
+					}, 30);
+
+				}
+				aA[i].onmouseout = function() {
+					clearInterval(this.time);
+					var This = this;
+					This.time = setInterval(function() {
+						This.style.width = This.offsetWidth - 8 + "px";
+						if (This.offsetWidth <= 120) {
+							clearInterval(This.time);
+						}
+					}, 30);
+				}
+			}
+		}
+	</script>
+</body>
+
+</html>

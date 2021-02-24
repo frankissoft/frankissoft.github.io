@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<!--
+	Caminar by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Rock Solid Teams</title>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/my.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="logo"><a href="#">Solid Teams of EPL</a></div>
+		<!-- navigation bar -->
+		<!-- ************** -->
+		<div class="navi">
+			<ul class="nav">
+				<li><a href="index.html">Introduction</a></li>
+				<li><a href="index1.html">History</a></li>
+				<li><a href="index2.html">Overall</a></li>
+				<li><a href="index3.html">Champions</a></li>
+				<li><a class="on" href="#">Solid Teams</a></li>
+				<li><a href="index5.html">Top scorers</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<section id="main">
+		<div class="inner">
+
+			<!-- One -->
+			<section id="one" class="wrapper style1" style="padding: 2rem">
+
+				<div class="image fit flush">
+					<!-- top picture -->
+					<!-- ************** -->
+
+
+					<img src="images/story.jpg" alt="" />
+				</div>
+			</section>
+
+
+
+			<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="spotlight">
+					<div class="image flush">
+						<!-- youtube video -->
+						<!-- ************** -->
+						<iframe width="560" height="315" style="padding-left: 1rem;" src="https://www.youtube.com/embed/cB_0jCpOq0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p style="padding-left: 1rem;">Who is the Premier League's best ever team? | BBC Sport</p>
+					</div>
+					<div class="inner">
+
+						<!-- story -->
+						<!-- ************** -->
+						<h3>Teams that likes to stay in top 8</h3>
+						<p>The Chart is implemented by D3. It shows the most teams that have
+						held a position between first and eigth rank in the EPL. If a team stays
+					in the top 8, it means the team is one of the strongest teams in the EPL.
+				Liverpool has stayed between 1-8 for 74 seasons. </p>
+						<p>Tip: If you want to invest in any team, you can invest in those displayed
+						teams.</p>
+					</div>
+				</div>
+
+			</section>
+
+
+			<!-- Two -->
+			<!-- <section id="two" class="wrapper style2"> -->
+			<section id="two" class="wrapper style2">
+				<!-- <header> -->
+				<h2 style="padding-top: 1rem; padding-bottom: 1rem; text-align:center;  ">Teams that have stayed within 8 best ranks</h2>
+				<!-- </header> -->
+				<div class="content">
+
+					<!-- <object data="league/leagueRank.swf" height="400" width="600"/> -->
+
+					<!-- 							<object width="100%" height="100%"></object>
+							<embed src="animation/leagueRank.swf" width="550" height="400"></embed> -->
+
+					<!-- tableau & D3 and animation -->
+					<!-- ************** -->
+					<!-- Create Cars scatter plot -->
+					<div id="svg" style="width: 1080px; height: 720px">
+
+					</div>
+
+
+
+
+
+
+				</div>
+		</div>
+	</section>
+
+	</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="copyright">
+			&copy; Untitled. All rights reserved. Images <a href="https://unsplash.com">Unsplash</a> Design <a href="https://templated.co">TEMPLATED</a>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/barchart2.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			var aA = document.getElementsByTagName("a");
+			for (var i = 0; i < aA.length; i++) {
+				aA[i].onmouseover = function() {
+					clearInterval(this.time);
+					var This = this;
+
+					This.time = setInterval(function() {
+						This.style.width = This.offsetWidth + 8 + "px";
+						if (This.offsetWidth >= 160) {
+							clearInterval(This.time);
+						}
+					}, 30);
+
+				}
+				aA[i].onmouseout = function() {
+					clearInterval(this.time);
+					var This = this;
+					This.time = setInterval(function() {
+						This.style.width = This.offsetWidth - 8 + "px";
+						if (This.offsetWidth <= 120) {
+							clearInterval(This.time);
+						}
+					}, 30);
+				}
+			}
+		}
+	</script>
+</body>
+
+</html>

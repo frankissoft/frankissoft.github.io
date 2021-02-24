@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--
+	Caminar by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Teams Progression</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/my.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="#">Teams Overall Progression</a></div>
+				<!-- navigation bar -->
+				<!-- ************** -->
+				<div class="navi">
+					<ul class="nav" >
+						<li><a href="index.html">Introduction</a></li>
+						<li><a href="index1.html">History</a></li>
+						<li><a class="on" href="index2.html">Overall</a></li>
+						<li><a href="index3.html">Champions</a></li>
+				        <li><a href="index4.html">Solid Teams</a></li>
+				        <li><a href="index5.html">Top scorers</a></li>
+				    </ul>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+
+				<!-- One -->
+					<section id="one" class="wrapper style1" style="padding: 2rem">
+
+						<div class="image fit flush">
+							<!-- top picture -->
+							<!-- ************** -->
+
+
+							<img src="images/all_teams.jpg" alt="" />
+						</div>
+					</section>
+
+
+
+				<!-- Three -->
+					<section id="three" class="wrapper">
+						<div class="spotlight" >
+							<div class="image flush" >
+								<!-- youtube video -->
+								<!-- ************** -->
+								<iframe width="560" height="315" style="padding-left: 1rem;" src="https://www.youtube.com/embed/UGShvn6M0wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<p style="padding-left: 1rem;"> The video is a song that mentions 92 teams in English Football</p>
+							</div>
+							<div class="inner">
+
+								<!-- story -->
+								<!-- ************** -->
+								<h3>Find out how your favorite team has progressed over time</h3>
+								<p>The animated viz displays each team’s progress from the beginning of the English Football from 1888 till 2018 in terms of the overall points in each season. </p>
+								<p>Choose the team you want to watch by clicking on the radio buttons from the viz. Then, click on the play button to start the animation. You can use a time filter to narrow down the viz. Hovering over the plot points will show details for that year.</p>
+								<p>Note: Not all the 92 teams from the video have made it to the Premier League</p>
+							</div>
+						</div>
+
+					</section>
+
+
+					<!-- Two -->
+					<!-- <section id="two" class="wrapper style2"> -->
+					<section id="two" class="wrapper style2">
+						<!-- <header> -->
+							<h2 style="padding-top: 1rem; padding-bottom: 1rem; text-align:center;  ">Teams Progression over Time Chart</h2>
+						<!-- </header> -->
+						<div class="content">
+
+							<!-- <object data="league/leagueRank.swf" height="400" width="600"/> -->
+
+<!-- 							<object width="100%" height="100%"></object>
+							<embed src="animation/leagueRank.swf" width="550" height="400"></embed> -->
+
+							<!-- tableau & D3 and animation -->
+							<!-- ************** -->
+
+
+							<div class='tableauPlaceholder' id='viz1589059613679' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3S&#47;3SC4X9TBS&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;3SC4X9TBS' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3S&#47;3SC4X9TBS&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1589059613679');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					&copy; Untitled. All rights reserved. Images <a href="https://unsplash.com">Unsplash</a> Design <a href="https://templated.co">TEMPLATED</a>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+			    window.onload=function(){
+			        var aA=document.getElementsByTagName("a");
+			        for(var i=0;i<aA.length;i++){
+			            aA[i].onmouseover=function(){
+			                clearInterval(this.time);
+			                var This=this;
+
+			                This.time=setInterval(function(){
+			                    This.style.width=This.offsetWidth+8+"px";
+			                    if(This.offsetWidth>=160){
+			                    clearInterval(This.time);
+			                }
+			                },30);
+
+			            }
+			            aA[i].onmouseout=function(){
+			                clearInterval(this.time);
+			                var This=this;
+			                This.time=setInterval(function(){
+			                    This.style.width=This.offsetWidth-8+"px";
+			                    if(This.offsetWidth<=120){
+			                        clearInterval(This.time);
+			                    }
+			                },30);
+			            }
+			        }
+			    }
+			    </script>
+	</body>
+</html>

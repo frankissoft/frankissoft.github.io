@@ -31,7 +31,7 @@ github_username:  frankissoft
 
 # Build settings
 theme: cayman
-plugins:
+# plugins:
   - jekyll-feed
 
 # Exclude from processing.

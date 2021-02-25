@@ -30,7 +30,7 @@ twitter_username: YanRunge
 github_username:  frankissoft
 
 # Build settings
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 

@@ -30,7 +30,7 @@ twitter_username: YanRunge
 github_username:  frankissoft
 
 # Build settings
-theme: cayman
+theme: jekyll-theme-leap-day
 # plugins:
 #  - jekyll-feed
 

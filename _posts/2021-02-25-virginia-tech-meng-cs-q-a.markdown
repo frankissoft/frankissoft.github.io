@@ -7,7 +7,7 @@ categories: VirginaTech
 
 Recently, several newly admitted students reached out to me on LinkedIn and asked me about my experience as a graduating MEng student here. I've collected enough conversations to post a Q&A here. (These answers are based on my personal experience and may not reflect on anyone.)
 
-### Who am I?
+### Who are you?
 
 I was admitted to the MSCS program for Fall 2019. During my 2 years study here, I lived near VT - [Northern Virginia Center](https://www.nvc.vt.edu){:target="_blank"}. I went to the center by metro or bike. I couldn't find an intern job or a faculty to work with during Summer 2020 so I transferred to the MEng CS program then.
 
@@ -92,3 +92,8 @@ It depends on the faculty. There'll be a weekly newsletter on all kinds of job/r
 ### So there's not a chance for MEng students?
 
 I'd say Virginia Tech is really supportive of graduate students. If you did well in a course, you can go after the instructor to see if there's a chance to expand your project into a research project or a conference paper. As you start to work with a professor and he/she sees your effort, you're likely to get at least partly funded. Even if you are not in his/her classes, the Department of CS has this list of faculty status where they'll update their status on offering assistantship.
+
+
+### I have other questions!
+
+Please feel free to reach out on LinkedIn!

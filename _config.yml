@@ -21,12 +21,13 @@
 title: Frank => Runge
 email: franklyan94@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    My boss said Frank sounds like a friend of his who will eat pizza and drink beers with.
+    My boss said that Frank sounds like a friend of his that will eat pizza and drink beers with him.
     I like my boss. I also start to realize that Runge is way better than a random English name.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: YanRunge
+twitter_username: YanRunge
 github_username:  frankissoft
+linkedin_username: runge-yan
 
 # Build settings
 theme: minima

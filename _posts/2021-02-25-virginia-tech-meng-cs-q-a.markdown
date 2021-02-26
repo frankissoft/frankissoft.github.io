@@ -41,7 +41,7 @@ Blacksburg is in a valley in the countryside and jobs around DC usually require 
 
 ### How's the career/job fair like?
 
-I attended the CS|Sourcce Fall 2019 career fair at Blacksburg, which is the only time I went to Blacksburg. Tech giants, start-ups and middle-level companies all sent recruiters to Blacksburg and the hall that hosted the fair is full of students and recruiters. It was much better than the virtual career fair in 2020.
+I attended the CS Source Fall 2019 career fair at Blacksburg, which is the only time I went to Blacksburg. Tech giants, start-ups and middle-level companies all sent recruiters to Blacksburg and the hall that hosted the fair is full of students and recruiters. It was much better than the virtual career fair in 2020.
 
 I attended the virtual job fairs but I just stayed in the lobby for a while since most of the companies that came to the job fair either require a security clearance or do not provide sponsorship.
 
